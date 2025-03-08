@@ -74,7 +74,7 @@ logo = c("""
          .7B&#PJ!:.      .:^^^:^^.                                                                  
                             :^~!^^~                                                                 
                               .:::  
-                AWACS Scanner.                                    CODED BY:@R00tendo                                                                """, "cyan") #Scanners class scanners: def s3_buckets(domain, threads): output = "" try: buckets = s3_bucket_scanner.scan(domain, wordlist_path, threads)
+      """, "cyan") #Scanners class scanners: def s3_buckets(domain, threads): output = "" try: buckets = s3_bucket_scanner.scan(domain, wordlist_path, threads)
     output += c("⦗S3 Bucket discovery⦘\n║\n║\n", "cyan")
     for bucket in buckets:
      output += c("╟╴", "cyan") + bucket.strip() + "\n"
