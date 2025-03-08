@@ -18,7 +18,7 @@ BTW. awacs-scanner has nothing to do with the actual plane, it is just named tha
 ## Installation
 1.
 ```
-git clone https://github.com/R00tendo/awacs-scanner
+git clone https://github.com/SpoofIMEI/awacs-scanner
 cd awacs-scanner
 pip3 install -r  requirements.txt
 sudo python3 awacs.py
